@@ -122,4 +122,3 @@ This session provided a hands-on introduction to several major biomedical databa
 
 📁 *All screenshots and queries are saved in this folder for documentation purposes.*
 
-Add session 2 README
