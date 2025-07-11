@@ -122,3 +122,108 @@ This session provided a hands-on introduction to several major biomedical databa
 
 📁 *All screenshots and queries are saved in this folder for documentation purposes.*
 
+----------------------------------------------------------------------------------------
+
+# 🧬 Session 3: Cancer Genomics Data Exploration and Mutation Analysis
+ 
+Topic: Using The Cancer Genome Atlas (TCGA) and Genomic Data Commons (GDC) for Mutation and Survival Analysis
+
+---
+
+## 📌 Overview
+
+In this session, I explored publicly available cancer genomics data platforms—primarily The Cancer Genome Atlas (TCGA) and the Genomic Data Commons (GDC) Data Portal—to understand how to analyze mutation frequencies, gene-specific information, and their impact on survival outcomes. I practiced using various built-in tools within these platforms, gaining hands-on experience with the practical application of genomic data in cancer research.
+
+---
+
+## 🗂️ Platforms & Tools Explored
+
+### 1. 🔹 The Cancer Genome Atlas (TCGA)
+- Started the session by reviewing the purpose and structure of TCGA.
+- Captured a homepage screenshot of the TCGA portal.
+- Understood its role in generating and housing large-scale cancer genomics datasets.
+
+![the cancer genome atlas](https://github.com/user-attachments/assets/de48468a-58b3-4404-9bca-c6a0ce5d9301)
+
+
+### 2. 🔹 GDC Data Portal
+- Navigated the GDC Home Page.  
+![Genomic Data Commons Data Portal](https://github.com/user-attachments/assets/27e701dc-d124-49d3-b902-9e297ed24c99)
+
+
+#### Key tools used:
+- 📊 Analysis Center – Interactive hub for exploring genetic alterations.
+- 👥 Cohort Builder – Created patient cohorts using filters like:
+  - Primary site (e.g., *Breast*)
+  - Gender (e.g., *Female*)
+  - Tumor descriptor (e.g., *Metastatic*) — *noted challenges with this filter’s availability*
+- 🧬 Gene Search and Repository – Looked up specific genes and cancer types.
+- 📁 Repository Tab – Learned to search and apply complex filters.
+
+---
+
+## 🔍 Mutation Frequency Analysis
+
+Used the Mutation Frequency Tool within the GDC Analysis Center to:
+- Identify most frequently mutated genes in breast cancer.
+- View mutations in a lollipop chart format representing protein-level mutation distribution.
+
+📸 *Example screenshot: Mutation Frequency for genes in breast cancer*  
+![GDC Data Portal Genes](https://github.com/user-attachments/assets/80c605bc-5e35-4785-b73a-5d47953c22b9)
+
+
+---
+
+## 🧠 Understanding the Protein-Level Mutation Distribution
+
+- Used the ProteinPaint visualization (Lollipop Plot) to:
+  - View mutations along the length of proteins (e.g., EGFR).
+  - Identify high-frequency mutations like EGFR p.L858R.
+
+📸 *Example screenshot: Lollipop plot for EGFR* 
+![Protein print](https://github.com/user-attachments/assets/e8767739-5c35-4ed3-9d8f-4dd9719f6e76)
+
+---
+
+## 📈 Mutation-Specific Survival Analysis
+
+Learned how to:
+- Click specific mutations in the Mutation Table.
+- Automatically generate a Kaplan–Meier survival plot comparing:
+  - Patients with that mutation.
+  - Patients without the mutation.
+
+
+🧪 *Key insight:* Different mutations in the same gene can have different effects on overall survival—highlighting the functional impact of mutation location and type.
+
+---
+
+## 📚 Tutorials & Self-Guided Exploration
+
+- Watched official GDC tutorial videos to deepen understanding of the platform.
+- Explored multiple cancers and genes to better grasp mutation frequency patterns and visualization tools.
+
+---
+
+## 🧾 Reflections & Takeaways
+
+- While the GDC interface has evolved, it now presents a steeper learning curve. Key filters (e.g., Tumor Descriptor) and intuitive data access are more buried than in previous versions.
+- The combination of protein visualization and mutation-specific survival plots is a powerful approach to understanding the real-world impact of genomic alterations.
+- A working knowledge of the GDC Mutation Frequency Tool, ProteinPaint, and Kaplan–Meier plots is essential for anyone engaging with cancer genomic data.
+
+---
+
+## ✅ Key Skills Practiced
+
+- Navigating real cancer genomics datasets.
+- Filtering by clinical and genomic features (e.g., primary site, mutation type).
+- Identifying gene-level mutations and their impact on survival.
+- Using mutation frequency charts and survival plots in GDC.
+- Integrating screenshots and documentation into a research portfolio.
+
+---
+
+
+
+
+
