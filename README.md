@@ -223,7 +223,80 @@ Learned how to:
 
 ---
 
+Session 4  
 
+## 📍 Topic
+Exploring TumorPortal for cancer genetic mutation analysis.  
+
+## 🔍 What I Learned
+In this session, I worked with the TumorPortal database. This platform helps identify which genes are important in different cancers and reveals the most common mutations associated with them. It provides both gene-focused and tumor-focused perspectives, giving a comprehensive overview of the genetic landscape across cancers.  
+
+![Tumor Portal Homepage](https://github.com/user-attachments/assets/75bfeb1a-e0e1-4244-b08d-061a8b3a95ca)
+
+I learned two main ways of searching for data:  
+
+1. Search by Tumor Type  
+   - By selecting a cancer type (e.g., breast cancer, pancreatic cancer), TumorPortal provides a table of significant genes.  
+   - Genes are categorized as:  
+     - Highly Significant  
+     - Significant  
+     - Relatively significant (Near Significance)
+
+![Tumor Portal Search by tumor](https://github.com/user-attachments/assets/8f23b0fe-2527-4523-9049-069aaa2b83f8)
+
+   - The table also shows the mutation frequency and contribution of each gene to that cancer.  
+   - A graphical overview is provided, which contains:  
+     - Patient demographics (age, gender, histology, vital status, ethnicity).  
+     - Gene mutation graphs showing:  
+       - Frequency of gene mutations (most frequent at the top).  
+       - Mutation types (missense, frameshift, loss-of-function, etc.).  
+       - Number of patients affected per mutation.  
+     - Copy number variation graphs, showing gene amplification or loss events.  
+
+ ![Tumor Portal Search by tumor Graphs](https://github.com/user-attachments/assets/9ffdc90e-73df-40cb-ab0e-ba816ae24a59)
+
+
+---
+
+2. Search by Gene  
+   - By entering a gene of interest, TumorPortal shows how that gene is mutated across cancers.  
+   - Provides protein domain visualizations:  
+     - Exact locations of mutations within the protein.  
+     - Mutation types and their distribution.  
+     - Filtering options to refine analysis.  
+   - Includes links to external resources, such as the National Cancer Institute, for further reference.  
+
+![Tumor Portal Search by Gene](https://github.com/user-attachments/assets/f6e5cdd0-d87b-4d5c-bc66-6a25d7e54930)
+
+  
+   - Example of mutation visualization graph when searching by gene  
+
+---
+
+## 📈 Key Takeaways
+- TumorPortal is a powerful tool for exploring the relationship between cancers and genetic mutations.  
+- It allows:  
+  - Identifying which genes are mutated in specific cancers.  
+  - Understanding the frequency and significance of mutations.  
+  - Visualizing the mutation types, patient distribution, and copy number variations.  
+  - Exploring protein domain-level effects of mutations.  
+- Overall, this database provides quick yet detailed insights into the genetic drivers of cancer.  
+
+📸 Final screenshot inserted here before conclusion:  
+- Protein domain mutation visualization (Search by Gene)  
+
+---
+
+## 🖼️ Planned Screenshots for This Session
+1. Homepage of TumorPortal  
+2. Tumor search results (significant genes table)  
+3. Tumor graph (mutation and CNV overview)  
+4. Gene search graph (protein domain mutations)  
+
+---
+
+## ✅ Conclusion
+This session highlighted how TumorPortal can give both a big-picture view of cancer genetics (by tumor type) and a focused gene-level view (by specific gene). Its combination of mutation frequency data, copy number variation, and protein domain visualizations makes it a very practical database for understanding cancer genomics.
 
 
 
