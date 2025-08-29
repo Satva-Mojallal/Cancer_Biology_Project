@@ -322,11 +322,11 @@ Key Learnings:
   - The percentage of cancers associated with each mutation  
 - The database provides visual representations of these mutation events and their impact, making it easier to understand the data at a glance.
 
-![Uploading Tumor Hotspots.jpg…]()
+![Tumor Hotspots](https://github.com/user-attachments/assets/6018873f-2bed-4885-95dd-c8b6c308af4d)
   
 Homepage of Cancer Hotspots database
 
-![Uploading Tumor Hotspots (Stats).jpg…]()
+![Tumor Hotspots (Stats)](https://github.com/user-attachments/assets/a199e90f-5808-40bc-a0ec-79cc1b1f6a3d)
 
 
 Example visualization of residue-level mutations  
