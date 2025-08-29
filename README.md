@@ -296,7 +296,65 @@ I learned two main ways of searching for data:
 ---
 
 ## ✅ Conclusion
+
 This session highlighted how TumorPortal can give both a big-picture view of cancer genetics (by tumor type) and a focused gene-level view (by specific gene). Its combination of mutation frequency data, copy number variation, and protein domain visualizations makes it a very practical database for understanding cancer genomics.
 
+------------
+
+# Session 5 – Cancer Hotspots & Tumor Fusion Gene Data Portal
+
+In this session, we explored two important databases that provide insight into how specific mutations and gene fusions contribute to cancer development. These resources focus on different aspects of cancer genomics: single-residue mutations and gene fusion events.
+
+---
+
+## Cancer Hotspots Database
+
+Overview:  
+The Cancer Hotspots database focuses on single-residue mutations within proteins that are statistically significant in cancer. It helps identify which amino acid changes occur at specific sites and how they contribute to cancer.
+
+Key Learnings:
+- The database highlights how mutations in different genes can lead to single-residue changes in the resulting proteins.  
+- Example: A glycine at position 61 in a protein may mutate into several different amino acids, each contributing to different cancers with varying frequencies.  
+- You can search by gene to find:
+  - Lists of single-residue changes  
+  - What residues are changing into  
+  - The statistical frequency of these changes  
+  - The percentage of cancers associated with each mutation  
+- The database provides visual representations of these mutation events and their impact, making it easier to understand the data at a glance.
+
+![Uploading Tumor Hotspots.jpg…]()
+  
+Homepage of Cancer Hotspots database
+
+![Uploading Tumor Hotspots (Stats).jpg…]()
+
+
+Example visualization of residue-level mutations  
+
+---
+
+## Tumor Fusion Gene Data Portal
+
+Overview:  
+This portal focused on gene fusions in cancer. While it was freely available at the time of the workshop, it is no longer openly accessible. Nonetheless, the concepts it introduced remain highly valuable.
+
+Key Learnings:
+- Gene fusions occur when two different genes combine, creating abnormal hybrid genes that can drive cancer.  
+- The portal allowed searches by:  
+  - Cancer type → See which gene fusions are reported in a specific cancer (e.g., breast cancer).  
+  - Gene → Find potential fusion partners and associated cancers.  
+  - Gene pair → Check whether two specific genes have recorded fusions, and in which cancers.  
+- This type of tool is especially useful in the experimental and hypothesis-building stages of research, providing insight into possible mechanisms for cancer progression.
+ 
+
+---
+
+## Conclusion
+
+In summary, today’s session introduced two complementary approaches to studying cancer genomics:  
+1. Cancer Hotspots – identifying statistically significant single-residue mutations in proteins and their associations with different cancers.  
+2. Tumor Fusion Gene Data Portal – understanding gene fusions, their role in cancer development, and how to query them by cancer type, gene, or gene pairs.  
+
+Both tools deepen our ability to link mutations and genomic rearrangements with cancer biology, offering valuable resources for hypothesis generation and experimental design.
 
 
