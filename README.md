@@ -357,4 +357,90 @@ In summary, today’s session introduced two complementary approaches to studyin
 
 Both tools deepen our ability to link mutations and genomic rearrangements with cancer biology, offering valuable resources for hypothesis generation and experimental design.
 
+------------------
+
+# Session 6 – Predicting the Effects of Gene and Protein Mutations
+
+In this session, we shifted from analyzing recorded mutations in databases to exploring tools that allow us to predict the potential effects of new mutations in genes and proteins. The focus was on understanding how a sequence alteration could impact protein behavior, even if that mutation has not been previously studied.
+
+---
+
+## Step 1: Extracting Sequences from NCBI
+
+Overview:  
+NCBI provides a wide range of information about genes, including their sequences, chromosomal location, gene names, associated studies, and disease links. For our purpose, we focused on extracting gene sequences to use in prediction tools.
+
+Key Learnings:
+- You can search for a specific gene and narrow results to a particular species.  
+- NCBI offers access to different types of sequence data:  
+  - GenBank → Contains raw, uncurated sequence submissions.  
+  - RefSeq → Contains curated, reviewed sequences approved for reliability.  
+  - FASTA → A machine-readable representation of the sequence.  
+- Data management differences:  
+  - US servers typically manage gene sequences.  
+  - European servers often manage protein sequences.  
+
+![NCBI](https://github.com/user-attachments/assets/e96c86fb-fd0c-49c9-920a-40cc71c65db7)
+
+---
+
+## Step 2: Extracting Protein Sequences from UniProt
+
+Overview:  
+UniProt provides comprehensive information about proteins, including their structure, mutations, functions, and disease associations. For predictions, we focused on extracting protein sequences.
+
+Key Learnings:
+- Search by protein name and filter by species to access detailed data.  
+- UniProt provides:  
+  - Information on mutations, pathology, and 3D structures.  
+  - Different sequence representations:  
+    - Human-readable format: amino acids grouped 10-by-10 for easier manual searching.  
+    - FASTA format: a continuous sequence without spacing, suitable for computational use.  
+
+![Uniprot](https://github.com/user-attachments/assets/66b4f758-7dd7-4e0f-b3e6-7fc539123af1)
+Screenshot of UniProt protein sequence page. 
+
+![Uniprot raw seq](https://github.com/user-attachments/assets/4b0945da-d84a-4e8a-be8e-a5c1dee48055)
+Example of raw (10-by-10) sequence format.
+
+![Uniprot FASTA seq](https://github.com/user-attachments/assets/6fe57377-dad7-4f0d-92e1-b33c77b8cad9)
+Example of FASTA format.
+
+---
+
+## Step 3: Predicting Mutation Effects with PolyPhen-2
+
+Overview:  
+PolyPhen-2 is a tool that predicts how an amino acid substitution may impact protein structure and function.
+
+Key Learnings:
+- Input required:  
+  - The FASTA sequence of the protein.  
+  - The position of the amino acid you want to study.  
+  - The original amino acid at that position.  
+  - The new amino acid to test.  
+- Output:  
+  - A prediction of whether the mutation is benign, possibly damaging, or probably damaging.  
+  - A downloadable result file summarizing the predicted effect.  
+
+![Poly-Phen-2 hp](https://github.com/user-attachments/assets/d92354c1-aa2a-4903-907d-b084e4085621)
+PolyPhen-2 input page.  
+
+![Poly-Phen-2 results 1](https://github.com/user-attachments/assets/fd7a3f06-5c92-4c7a-b5bc-42965473fd30)
+Example results page showing predictions.
+
+![Poly-Phen-2 results 2](https://github.com/user-attachments/assets/9bcc31b7-af4a-4dbd-9f95-532d1c47581e)
+Visualization of a predicted mutation effect.  
+
+---
+
+## Conclusion
+
+This session introduced the concept of prediction in bioinformatics:  
+1. From NCBI → Extract gene sequences (GenBank, RefSeq, FASTA).  
+2. From UniProt → Extract protein sequences (raw vs. FASTA format).  
+3. With PolyPhen-2 → Predict how specific amino acid substitutions affect protein function.  
+
+By integrating sequence extraction with predictive tools, we can explore the potential impact of new or unstudied mutations, moving beyond recorded data to anticipate future discoveries in genomics and disease research.
+
 
