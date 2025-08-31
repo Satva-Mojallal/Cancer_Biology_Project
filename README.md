@@ -443,4 +443,79 @@ This session introduced the concept of prediction in bioinformatics:
 
 By integrating sequence extraction with predictive tools, we can explore the potential impact of new or unstudied mutations, moving beyond recorded data to anticipate future discoveries in genomics and disease research.
 
+---------------------------------------------------------
+
+# Session 7 – Prediction Tools: Mutation Assessor & Mutation Taster
+
+In this session, we explored two additional tools for predicting the impact of mutations: one working at the protein level (Mutation Assessor) and the other at the genomic/nucleotide level (Mutation Taster). While one of these tools was out of service, the session provided valuable lessons on how to interpret input formats, navigate databases, and understand cross-database differences.
+
+---
+
+## Mutation Assessor (Protein-Level Predictions)
+
+Overview:  
+Mutation Assessor was designed to predict how mutations affect protein function. Although the tool is currently unavailable, the session highlighted important lessons in how to work with input formats and interpret database instructions.
+
+Key Learnings:
+- Referencing mutations:  
+  - Mutations can be described using a standard format:  
+    - First, the chromosome number.  
+    - Followed by the location (retrieved from UniProt or NCBI).  
+    - Then the specific change (e.g., at a given protein sequence site, Methionine → Glycine).  
+- Similarity to PolyPhen-2: Like earlier tools, Mutation Assessor predicted whether substitutions were likely to affect protein function.  
+- Navigating input instructions:  
+  - Even though the tool was not active, reading its input guidelines was an essential learning experience.  
+  - It taught how to interpret instructions for data submission, an important transferable skill for using other databases in the future.  
+  - *Lesson learned:* “Learning how to fish” (how to use the tool) is often more valuable than the immediate results.
+
+---
+
+## Mutation Taster (Nucleotide/Genome-Level Predictions)
+
+Overview:  
+Mutation Taster predicts the effects of mutations at the gene and genome sequence level. Unlike most tools we have used so far, it can handle more than single point mutations.
+
+Key Learnings:
+- Types of mutations supported:  
+  - Single point mutations  
+  - Insertions  
+  - Deletions  
+  - Multi-nucleotide substitutions (e.g., replacing 2–3 nucleotides with others)  
+- Outputs provided:  
+  - Predictions on how the mutation could alter the protein product.  
+  - Insights into possible morphological and functional consequences.  
+- Input formats:  
+  - Different ways to submit queries: via transcript, full genome sequence, or other input types.  
+  - Requires careful attention to input formatting for correct predictions.  
+
+
+![Mutation Tater hp](https://github.com/user-attachments/assets/d2a54c7a-0312-4d88-8c46-6ee1e55a7b28)
+Homepage of Mutation Taster 
+
+![Mutation Tater results](https://github.com/user-attachments/assets/4c076ce1-d254-4283-9600-fa5eee78e1f3)
+Example results page from Mutation Taster
+
+---
+
+## Cross-Database Considerations
+
+Key Insight:  
+- Information is not always consistent across databases.  
+- The same mutation may be described in one database but not found in another.  
+- Differences arise due to varying algorithms, database structures, and scope of information.  
+- Best practice: Always cross-check across multiple databases to build a complete and reliable picture.
+
+---
+
+## Conclusion
+
+This session introduced two additional prediction tools:  
+1. Mutation Assessor – protein-level predictions (currently unavailable, but valuable for learning about input formats and mutation notation).  
+2. Mutation Taster – genome-level predictions, supporting point mutations, insertions, deletions, and substitutions.  
+
+We also emphasized the importance of reading input instructions carefully and cross-checking databases, since no single resource provides all the answers.
+
+
+
+
 
