@@ -515,7 +515,40 @@ This session introduced two additional prediction tools:
 
 We also emphasized the importance of reading input instructions carefully and cross-checking databases, since no single resource provides all the answers.
 
+-------------
 
+
+# Session 8 – Culmination & Creative Exploration
+
+## Overview
+Session 8 served as a culmination of all the previous sessions. The main goal was to revisit everything learned so far, now with a broader perspective. This session emphasized reflection, creativity, and innovation, encouraging us to push the boundaries of how databases and techniques can be used.
+
+## Key Points
+- Reviewed all databases and techniques learned across earlier sessions.  
+- The central exercise: ask questions to trigger creativity and innovation.  
+  - Instead of using databases only in their traditional ways, we were challenged to explore new, creative applications.  
+  - Example: stretch the potential of each database to discover novel insights for informatics and research.  
+
+## Exercises
+1. Question-driven exploration  
+   - For each database, ask:  
+     - *How can I use this database?*  
+     - *In what new ways could I use it beyond traditional applications?*  
+
+2. Hypothesis & inquiry  
+   - Develop small hypotheses, questions, or “adventures” for exploration.  
+   - Example Question: *What genes are mutated in breast cancer in women?*  
+     - Step 1: Identify relevant databases.  
+     - Step 2: Extract the mutation data.  
+     - Step 3: Analyze the results to highlight the most dangerous or impactful mutations.  
+
+## Purpose of the Session
+- To consolidate previous knowledge.  
+- To encourage independent thinking, creativity, and innovation.  
+- To prepare for future sessions by reinforcing critical thinking and practical database exploration.  
+
+---
+✅ This session was more of a review + practice session, but refreshing and motivating after the heavy, database-intensive past two sessions.
 
 
 
