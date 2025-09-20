@@ -550,5 +550,75 @@ Session 8 served as a culmination of all the previous sessions. The main goal wa
 ---
 ✅ This session was more of a review + practice session, but refreshing and motivating after the heavy, database-intensive past two sessions.
 
+--------------------------------------------------------------------------------------------------------------
+
+
+# Session 9 - Transcriptomics and Microarray Technology  
+
+## Overview  
+Up to now, we worked at the sequence level, using databases to identify mutations and sequence variations.  
+From this session onward, we are shifting focus to expression-level analysis—studying transcriptome and translation levels.  
+
+The primary goal in upcoming sessions is to perform differential gene expression analysis in cancer:  
+- Compare healthy vs. cancerous tissues.  
+- Identify upregulated and downregulated genes.  
+- Understand transcriptional activity differences that contribute to disease.  
+
+---
+
+## Microarray Technology  
+
+### Purpose  
+- A high-throughput transcriptomics technique.  
+- Allows analysis of mRNA expression levels across thousands of genes simultaneously.  
+- Provides more holistic data compared to methods like PCR or qRT-PCR.  
+
+### Workflow  
+1. Sample collection – Obtain tissue (often via biopsy/autopsy).  
+2. mRNA extraction – Isolate total mRNA content.  
+3. Reverse transcription – Convert mRNA into complementary DNA (cDNA).  
+4. Labeling – Attach fluorescent markers to cDNA.  
+5. Hybridization – Place labeled cDNA onto a microarray chip containing probes.  
+6. Binding – cDNA binds to complementary probes on the chip.  
+7. Detection – Fluorescence intensity shows expression level:  
+   - Brighter spots = higher mRNA expression.  
+   - Dim spots = lower expression.  
+
+The output file from microarrays is a CEL file (grid image of probe intensity values), which is later analyzed computationally.  
+
+---
+
+## Microarray Components  
+
+### Probe & Probe Cells  
+- Each probe = a short DNA oligomer.  
+- Designed to be complementary to unique gene regions.  
+- Probes are arranged on the chip in probe cells (18–50 microns in size).  
+
+### Probe Pairs  
+- Two probe cells per gene region:  
+  - Perfect Match (PM): 100% complementary sequence.  
+  - Mismatch (MM): One nucleotide altered.  
+- Purpose: quality control – ensures stronger binding occurs with PM probes.  
+
+### Probe Sets  
+- Groups of 11–20 probe pairs.  
+- Each set represents a single gene.  
+- Accounts for variants of a gene across individuals (e.g., EGFR gene variants).  
+- Ensures inclusivity and accurate detection across different genomes.  
+
+---
+
+## Key Takeaways  
+- We are transitioning from sequence-based analysis to expression-based analysis.  
+- Microarrays enable large-scale, quantitative study of gene expression.  
+- The probe–probe pair–probe set hierarchy provides robustness and accuracy.  
+- Differential expression analysis will help uncover gene activity changes in cancer.  
+
+---
+
+## Next Steps  
+- Learn how to use databases and tools for analyzing microarray expression data.  
+- Begin applying transcriptomics concepts to real cancer datasets.
 
 
