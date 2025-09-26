@@ -750,4 +750,108 @@ This log transformation makes fold changes easier to interpret, especially acros
 - Learn more advanced techniques for handling CEL files locally with specialized bioinformatics tools.  
 - Apply these methods to specific cancer datasets for in-depth differential expression analysis.
 
+---------------------------------------------------------------------------------------------
 
+
+
+
+# Session 11 – Statistical Analysis of Gene Expression  
+
+## Overview  
+In this session, we moved deeper into the statistical foundations of gene expression analysis. We focused on understanding key statistical concepts, especially p-values, their interpretations, and how they are applied in gene expression studies. We also practiced exercises with real datasets, applying thresholds and visualizing results using different statistical plots.  
+
+---
+
+## Key Statistical Concepts  
+
+### Hypotheses in Statistics  
+- H0 (Null Hypothesis): Assumes there is no difference or no correlation between groups.  
+- H1 (Alternative Hypothesis): Suggests there is a difference or a correlation between groups.  
+
+⚡ *Core idea:* Since proving H1 directly is difficult, we often try to reject H0. The stronger the evidence against H0, the more confidence we have in H1.  
+
+---
+
+### p-value  
+- Represents the probability that H0 is correct.  
+- The lower the p-value, the stronger the evidence against H0.  
+
+Thresholds:  
+- p < 0.05 (5%) → Statistically significant. Evidence is strong enough to reject H0.  
+- p < 0.01 (1%) → Stricter threshold, used for higher confidence.  
+- Closer to 0 → Higher statistical significance.  
+- > 0.05 → Not statistically significant.  
+
+Scientific notation in results:  
+- Example: 3.18e-17 = 3.18 × 10⁻¹⁷.  
+
+---
+
+### Adjusted p-value  
+- When working with large datasets (thousands of genes), multiple hypothesis testing can distort results.  
+- Adjustments are made to correct for this, producing the adjusted p-value.  
+- This ensures more reliable significance testing when dealing with many simultaneous comparisons.  
+
+📌 *In practice, we usually rely on the adjusted p-value instead of the raw p-value.*  
+
+---
+
+## Exercises & Data Filtering  
+
+1. Initial Filtering:  
+   - Collected results of differential expression analysis.  
+   - Selected genes with adjusted p-value < 0.05.  
+   - This left ~24,000 significant gene expression results.  
+
+2. Classifications:  
+   - Overexpressed genes (higher expression in tumors vs. normal).  
+   - Underexpressed genes (lower expression in tumors vs. normal).  
+
+3. Further Narrowing:  
+   - Created two sub-groups within each category:  
+     - Highly overexpressed  
+     - Highly underexpressed  
+   - This allowed focus on the most significant genes when working with large datasets.  
+
+---
+
+## Statistical Plots Learned  
+
+### 1. Distribution Plot  
+- Shows if the dataset follows a normal distribution.  
+- Useful for checking statistical assumptions.  
+
+### 2. Box Plot  
+- Displays spread and variation of data.  
+- Helps compare distributions between groups (e.g., tumors vs. normal tissues).  
+
+### 3. UMAP Plot  
+- Reduces complex gene expression data into a 2D visualization with dots.  
+- Tumor and normal samples form clusters:  
+  - Separated clusters → Strong evidence of significant differences.  
+  - Overlapping clusters → Weak or no significant differences.  
+
+### 4. Volcano Plot  
+- Interactive plot that highlights significant genes.  
+- Axes:  
+  - x-axis = Fold change  
+  - y-axis = -log10(p-value)  
+- Genes are visually separated into:  
+  - Overexpressed (upregulated)  
+  - Underexpressed (downregulated)  
+- Allows download of significantly altered genes for deeper analysis.  
+
+---
+
+## Key Takeaways  
+- p-values measure the probability of error in rejecting H0.  
+- Adjusted p-values are critical for large-scale gene expression studies.  
+- Filtering by p-value helps reduce datasets to statistically meaningful genes.  
+- Visualization tools (UMAP, volcano, etc.) are essential for interpreting gene expression differences.  
+
+---
+
+## Next Steps  
+- Dive deeper into statistical interpretation of expression datasets.  
+- Learn how to integrate fold change values with p-values for biological relevance.  
+- Begin exploring pathway-level interpretations of significant gene sets.
