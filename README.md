@@ -855,3 +855,84 @@ Scientific notation in results:
 - Dive deeper into statistical interpretation of expression datasets.  
 - Learn how to integrate fold change values with p-values for biological relevance.  
 - Begin exploring pathway-level interpretations of significant gene sets.
+- 
+
+----------------------------------------------------------------------------------------------------------------
+
+
+# Session 12 - Advanced Use of GEO and Differential Gene Expression Analysis
+
+In this session, we learned more about how to work with the GEO database and explored additional options to refine our differential gene expression analyses. The focus was on adjusting analysis parameters, filtering datasets effectively, and validating results.
+
+---
+
+## Key Concepts
+
+1. Adjusting p-value thresholds
+   - Default significance threshold: p < 0.05
+   - For stricter analysis, this can be lowered (e.g., p < 0.01)
+   - These thresholds define the significance level and allow us to filter for more reliable results.
+
+2. Normalization option
+   - GEO provides a "force normalization" setting.
+   - It applies subtle changes to help normalize datasets.
+   - While not very powerful, it can improve consistency across data.
+
+3. Significance levels
+   - P-values are often referred to as significance levels.
+   - Lower values correspond to higher statistical significance.
+
+![plots](https://github.com/user-attachments/assets/d1104c6f-de5c-4b9e-a9ae-d3da6f7c464d)
+![volcano plot](https://github.com/user-attachments/assets/5b263568-591f-49de-98cb-e4c632efa931)
+![volcano plot sin genes](https://github.com/user-attachments/assets/d138f2f3-4cd5-48e3-8920-d5e0f0e92e51)
+"volcano plot significant genes" and "volcano plot" 
+
+---
+
+## Differential Gene Expression Analysis: 4 Key Considerations
+
+1. Sample Size
+   - Studies with larger sample numbers are more reliable.
+   - Filters were applied in GEO to rank datasets from highest to lowest sample count.
+   - Example: Chose breast cancer datasets with supplementary files (e.g., CEL files).
+
+2. Study Design / Differentiation
+   - Some studies divide samples into groups (e.g., male vs. female patients).
+   - These subdivisions provide opportunities for more specific or subgroup analyses.
+
+3. Control vs. Cancerous Samples
+   - Essential to include both control (normal/non-cancerous) and cancerous (tumor) samples.
+   - Some studies only provide cancer samples, which are not usable for direct differential analysis.
+   - Treated patient samples are generally not usable unless accompanied by both tumor and control samples.
+
+4. Validation
+   - After identifying significant genes, validation is required.
+   - Search for existing literature to confirm if these genes have already been implicated in the specific cancer type.
+   - If confirmed, results are validated.
+   - If not yet studied, these genes could represent potential new therapeutic targets.
+
+---
+
+## Homework / Practical Exercise
+
+- Replicate the differential gene expression analysis process for another cancer type.
+- Apply filters for:
+  - Human datasets
+  - Supplementary files available (e.g., CEL files)
+  - Large sample size
+  - Presence of both cancerous and control samples
+- Validate findings against published literature.
+
+![bc overexpressed genes in tumors](https://github.com/user-attachments/assets/24fdf135-d591-4a14-8193-9ac1ddf6602e)
+bc overexpressed genes in tumors
+
+![validation](https://github.com/user-attachments/assets/0e2315ca-7d36-42f4-a1ed-bda1a3bb7a17)
+validation
+
+---
+
+## Summary
+
+- Adjusting p-value thresholds and normalization options allows more tailored analyses in GEO.  
+- Four main factors guide dataset selection: sample size, study design, presence of control samples, and exclusion of treated-only samples.  
+- Validation through literature review strengthens the significance of identified genes and highlights potential novel targets for cancer research.
